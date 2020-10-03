@@ -19,7 +19,6 @@ function App() {
         setImg(() => poke.img);
       });
   }
-  console.log(name);
   return (
     <div className="App">
       <Search enBuscar={enBuscar}/>
