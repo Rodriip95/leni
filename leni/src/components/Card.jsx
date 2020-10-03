@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 export default function Card (prop){
-    console.log(prop.name);
     if (prop.name){
         return (
             <div>
